@@ -103,7 +103,7 @@ class _BusShowDataState extends State<BusShowData> {
                         ),
                         SizedBox(width: 10),
                         Text(
-                          'ตารางแสดงข้อมูลรถราง',
+                          'ข้อมูลรถราง',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,

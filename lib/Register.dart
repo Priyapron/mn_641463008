@@ -59,7 +59,9 @@ class _RegisterUserFormState extends State<RegisterUserForm> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('แบบฟอร์มสมัครสมาชิก'),
+        backgroundColor: Colors.indigo,
+        title: Text('แบบฟอร์มสมัครสมาชิก',
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
